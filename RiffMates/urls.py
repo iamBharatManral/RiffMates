@@ -6,4 +6,5 @@ urlpatterns = [
     path("credits/", home_views.credits),
     path("about/", home_views.about),
     path("version-info/", home_views.version_info),
+    path("news/", home_views.news),
 ]
